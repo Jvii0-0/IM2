@@ -1,0 +1,24 @@
+1. Create a remote repository from GitHub (using Google Email Account)
+@gmail.com not institutional account such as @psu.edu.ph.
+
+Your github repository URL is: https://github.com/excaliburdotcom/proj2 from
+the address bar
+
+2. Open a folder with files and at the address bar of the folder, type CMD
+
+.
+
+This will open the command prompt from the folder directory C:\Users\Mike-
+PC\Desktop\mike&gt;
+3. Type git init to initialize the local repository
+C:\Users\Mike-PC\Desktop\mike&gt;git init
+Initialized empty Git repository in C:/Users/Mike-PC/Desktop/mike/.git/
+4. Type git add . (add all files in the directory) OR git add filenameofyourfile
+(add specific file)
+5. C:\Users\Mike-PC\Desktop\mike&gt;git commit -m &quot;v1&quot;
+6. git push -u https://github.com/excaliburdotcom/proj2 master
+Refresh your github repository and you can now see the files uploaded.
+
+To pull from remote repository,
+C:\Users\Mike-PC\Desktop\mike&gt;git pull
+https://github.com/excaliburdotcom/proj2 master
